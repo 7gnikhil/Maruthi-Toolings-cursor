@@ -21,3 +21,14 @@ a:hover {
   margin: 0 auto;
   padding: 20px;
 }
+
+.page-hero {
+  background: linear-gradient(90deg, rgba(11,61,145,0.08), rgba(255,255,255,0));
+  padding: 22px 20px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.page-hero h1, .page-hero h2 { margin: 0 0 8px 0 }
+
+.nav .logo { vertical-align: middle }

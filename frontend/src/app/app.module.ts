@@ -9,11 +9,13 @@ import { BannerComponent } from './components/banner/banner.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductsComponent } from './components/products/products.component';
-import { ServicesComponent } from './servicescomponent/services.component';
+import { ServicesComponent } from './services/services.component';
 import { CareersComponent } from './careers/career.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { UpdatesComponent } from './components/updates/updates.component';
 import { HomeComponent } from './components/home/home.component';
+import { OngoingComponent } from './components/ongoing/ongoing.component';
+import { CompletedComponent } from './components/completed/completed.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -26,6 +28,8 @@ import { AppRoutingModule } from './app-routing.module';
     ProductsComponent,
     ServicesComponent,
     CareersComponent,
+  OngoingComponent,
+  CompletedComponent,
     ContactComponent,
     UpdatesComponent,
     HomeComponent

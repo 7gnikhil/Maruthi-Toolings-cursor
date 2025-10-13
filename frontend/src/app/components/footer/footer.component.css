@@ -5,3 +5,11 @@ footer {
   text-align: center;
   margin-top: 40px;
 }
+
+.footer-grid { display:flex; gap:20px; justify-content:space-between; align-items:flex-start; flex-wrap:wrap }
+.footer-col { flex:1 1 300px; }
+.footer-col h4 { margin-top: 0 }
+.footer-col form input, .footer-col form textarea { width:100%; padding:8px; margin-bottom:8px; border-radius:4px; border:none }
+.footer-col form button { padding:8px 12px; background:#ffd966; border:none; border-radius:4px; cursor:pointer }
+.footer-col .success { color:#d4ffd6; margin-top:8px }
+.footer-col .error { color:#ffd6d6; margin-top:8px }

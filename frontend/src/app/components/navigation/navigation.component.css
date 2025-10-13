@@ -1,34 +1,38 @@
-.navbar {
-  background-color: #007bff;
-  color: white;
-  padding: 10px 0;
+.nav {
+  background-color: #0b3d91; /* deep blue */
+  color: #ffffff;
+  padding: 12px 0;
 }
 
-.navbar .container {
+.nav.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: white;
-}
+.logo { width: 48px; height: 48px; }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 18px;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .nav-links li a {
-  color: white;
-  font-weight: 500;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .nav-links li a:hover {
-  text-decoration: underline;
+  color: #ffd966; /* subtle highlight */
 }
+
+.nav-left { display:flex; align-items:center; gap:12px }
+
+.nav .container .nav-links { margin-left: auto }
+
+.nav .company-desc { color: #e0e8ff; font-size: 0.9rem; margin-left: 12px }
+.nav-icon { width: 18px; height: 18px; margin-right:8px; vertical-align:middle }

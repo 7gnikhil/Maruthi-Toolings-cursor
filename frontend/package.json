@@ -1,14 +1,11 @@
 {
 	"name": "maruthi-toolings-frontend",
-	"version": "1.0.0",
+	"version": "0.0.0",
+    "requires": true,
+
 	"scripts": {
 		"ng": "ng",
-		"start": "ng serve",
-		"build": "ng build",
-		"test": "ng test",
-		"lint": "ng lint",
-		"e2e": "ng e2e"
-	},
+		"start": "ng serve"},
 	"private": true,
 	"dependencies": {
 		"@angular/animations": "~15.2.0",
