@@ -1,0 +1,83 @@
+1maruthi-toolings/
+2├── backend/
+3│   ├── config/
+4│   │   └── db.config.js
+5│   ├── controllers/
+6│   │   ├── career.controller.js
+7│   │   ├── inquiry.controller.js
+8│   │   ├── product.controller.js
+9│   │   └── service.controller.js
+10│   ├── models/
+11│   │   ├── career.model.js
+12│   │   ├── inquiry.model.js
+13│   │   ├── product.model.js
+14│   │   └── service.model.js
+15│   ├── routes/
+16│   │   ├── career.routes.js
+17│   │   ├── inquiry.routes.js
+18│   │   ├── product.routes.js
+19│   │   └── service.routes.js
+20│   ├── .env.example
+21│   ├── .gitignore
+22│   ├── package.json
+23│   └── server.js
+24├── frontend/
+25│   ├── README.md
+26│   ├── angular.json
+27│   ├── package.json
+28│   ├── tsconfig.json
+29│   ├── src/
+30│   │   ├── app/
+31│   │   │   ├── components/
+32│   │   │   │   ├── banner/
+33│   │   │   │   │   ├── banner.component.css
+34│   │   │   │   │   ├── banner.component.html
+35│   │   │   │   │   └── banner.component.ts
+36│   │   │   │   ├── contact/
+37│   │   │   │   │   ├── contact.component.css
+38│   │   │   │   │   ├── contact.component.html
+39│   │   │   │   │   └── contact.component.ts
+40│   │   │   │   ├── footer/
+41│   │   │   │   │   ├── footer.component.css
+42│   │   │   │   │   ├── footer.component.html
+43│   │   │   │   │   └── footer.component.ts
+44│   │   │   │   ├── navigation/
+45│   │   │   │   │   ├── navigation.component.css
+46│   │   │   │   │   ├── navigation.component.html
+47│   │   │   │   │   └── navigation.component.ts
+48│   │   │   │   ├── products/
+49│   │   │   │   │   ├── products.component.css
+50│   │   │   │   │   ├── products.component.html
+51│   │   │   │   │   └── products.component.ts
+52│   │   │   │   ├── updates/
+53│   │   │   │   │   ├── updates.component.css
+54│   │   │   │   │   ├── updates.component.html
+55│   │   │   │   │   └── updates.component.ts
+56│   │   │   │   └── home/
+57│   │   │   │       ├── home.component.css
+58│   │   │   │       ├── home.component.html
+59│   │   │   │       └── home.component.ts
+60│   │   │   ├── services/
+61│   │   │   │   ├── services.component.css
+62│   │   │   │   ├── services.component.html
+63│   │   │   │   └── services.component.ts
+64│   │   │   ├── careers/
+65│   │   │   │   ├── careers.component.css
+66│   │   │   │   ├── careers.component.html
+67│   │   │   │   └── careers.component.ts
+68│   │   │   ├── app.component.css
+69│   │   │   ├── app.component.html
+70│   │   │   ├── app.component.ts
+71│   │   │   ├── app.module.ts
+72│   │   │   ├── app-routing.module.ts
+73│   │   │   └── services/
+74│   │   │       └── api.service.ts
+75│   │   ├── assets/
+76│   │   │   ├── banner1.jpg
+77│   │   │   ├── banner2.jpg
+78│   │   │   └── banner3.jpg
+79│   │   └── environments/
+80│   │       ├── environment.prod.ts
+81│   │       └── environment.ts
+82│   ├── .gitignore
+83└── README.md

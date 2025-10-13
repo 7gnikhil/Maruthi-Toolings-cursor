@@ -1,0 +1,13 @@
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.updates-list li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}

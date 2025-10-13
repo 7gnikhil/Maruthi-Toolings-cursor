@@ -1,0 +1,13 @@
+<h2>Careers</h2>
+
+<div *ngIf="loading">Loading career opportunities...</div>
+<div *ngIf="error" class="error">{{ error }}</div>
+
+<div class="careers-list" *ngIf="!loading && !error">
+  <div class="career-item" *ngFor="let career of careers">
+    <h3>{{ career.position }}</h3>
+    <p><strong>Location:</strong> {{ career.location }}</p>
+    <p>{{ career.description }}</p>
+    <p><strong>Qualifications:</strong> {{ career.qualifications }}</p>
+  </div>
+</div>
