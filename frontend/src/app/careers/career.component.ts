@@ -4,7 +4,7 @@ import { ApiService } from '../services/api.service';
 @Component({
   selector: 'app-careers',
   templateUrl: './careers.component.html',
-  styleUrls: ['./careers.component.css']
+  styleUrls: ['./career.component.css']
 })
 export class CareersComponent implements OnInit {
   careers: any[] = [];
