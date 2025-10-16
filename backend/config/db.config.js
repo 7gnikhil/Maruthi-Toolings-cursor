@@ -4,14 +4,16 @@ dotenv.config();
 
 const connectDB = async () => {
 	try {
-		await mongoose.connect(process.env.MONGO_URI, {
+		const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/maruthi-toolings';
+		await mongoose.connect(mongoUri, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 		});
 		console.log('MongoDB connected successfully.');
 	} catch (error) {
 		console.error('MongoDB connection failed:', error.message);
-		process.exit(1);
+		console.log('Continuing without MongoDB connection...');
+		// Don't exit the process, just log the error
 	}
 };
 
