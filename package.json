@@ -1,0 +1,21 @@
+{
+  "name": "maruthi-toolings",
+  "version": "1.0.0",
+  "description": "Maruthi Toolings MEAN Stack Application",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node start.js",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
