@@ -12,7 +12,8 @@
     "deploy": "node deploy.js"
   },
   "dependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "@angular/cli": "^15.2.0"
   },
   "devDependencies": {},
   "engines": {
